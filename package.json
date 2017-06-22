@@ -1,0 +1,28 @@
+{
+    "name": "bus-for-vue",
+    "version": "1.0.2",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "build": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lmw6412036/vue-bus.git"
+    },
+    "keywords": [
+        "vue",
+        "bus"
+    ],
+    "author": "lmw6412036",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lmw6412036/vue-bus/issues"
+    },
+    "homepage": "https://github.com/lmw6412036/vue-bus#readme",
+    "devDependencies": {
+        "auto-version": "^1.0.10",
+        "hprose": "^2.0.43"
+    }
+}

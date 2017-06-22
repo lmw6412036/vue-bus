@@ -1,0 +1,15 @@
+# vue-bus
+
+vue全局通讯，非父子间通讯用
+
+### 安装
+```bash
+npm i -D vue-bus
+```
+
+### 使用
+```bash
+import Vue from "vue"
+import Bus from "vue-bus"
+Vue.use(Bus);
+```

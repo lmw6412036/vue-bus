@@ -12,4 +12,23 @@ npm i -D vue-bus
 import Vue from "vue"
 import Bus from "vue-bus"
 Vue.use(Bus);
+
+a.vue文件:
+...
+created(){
+  this.$bus.emit("event",data)
+}
+...
+
+b.vue文件:
+...
+created(){
+  this.$bus.on("event",(data)=>{
+  //TODO...
+  })
+}
+...
+
+
+
 ```
